@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Professional portfolio website for [Your Name]">
-    <title>Portfolio - [Your Name]</title>
+    <title>Portfolio - Mbotanah Vincent</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -33,7 +33,7 @@
                  - Active state indication
             -->
             <div class="nav__logo">
-                <a href="#home">[Your Name]</a>
+                <a href="#home">VMbotanah</a>
             </div>
             <ul class="nav__menu">
                 <li><a href="#home">Home</a></li>
@@ -41,6 +41,9 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <button id="theme-toggle" class="btn btn--outline btn--small">
+                Dark / Light Mode
+            </button>
         </nav>
     </header>
 
@@ -55,10 +58,10 @@
                  - Consider using Flexbox for layout
             -->
             <div class="hero__content">
-                <h1>Your Name</h1>
+                <h1>Mbotanah Vincent</h1>
                 <p class="hero__tagline">
                     <!-- TODO: Add your professional tagline -->
-                    Web Developer | Designer | Problem Solver
+                    Web Developer | Network Engineer | Ethical Hacker
                 </p>
                 <a href="#contact" class="btn btn--primary">Get In Touch</a>
             </div>
@@ -79,7 +82,7 @@
                 <div class="about__content">
                     <div class="about__image">
                         <!-- TODO: Add your profile image -->
-                        <img src="images/profile-placeholder.jpg" alt="Profile photo of [Your Name]">
+                        <img src="images/hacker.png" alt="Profile photo of myself">
                     </div>
                     <div class="about__text">
                         <p>
@@ -90,17 +93,35 @@
                                  - Your goals
                                  - What makes you unique
                             -->
-                            [Your professional bio goes here. Write at least 150 words about yourself,
-                            your background, your passion for web development, and your goals.
-                            This is your opportunity to introduce yourself to potential employers or clients.]
+                            I am a passionate and detail-oriented web development enthusiast with a strong
+                            foundation in programming and problem-solving. As a university student with a 
+                            background in computer science and networking, I have developed solid technical 
+                            skills through academic projects and personal exploration. My journey into web 
+                            development began with curiosity about how websites function behind the scenes, 
+                            and it quickly grew into a deep interest in designing clean, responsive, 
+                            and user-friendly interfaces.
+                        </p>
+                        <p>
+                            I enjoy working with HTML and CSS to create structured and visually appealing 
+                            layouts, and I continuously strive to improve my understanding of modern web 
+                            technologies. Beyond web development, I have experience in programming concepts, 
+                            object-oriented design, and network systems, which strengthen my analytical
+                            thinking and technical versatility.
+                        </p>
+                        <p>
+                            I am highly motivated to build solutions that are not only functional but 
+                            efficient and scalable. My long-term goal is to grow into a professional 
+                            developer capable of contributing to impactful projects, whether in software 
+                            engineering, web technologies, or network-based systems. I am always eager to 
+                            learn, adapt, and take on new challenges that push my skills to the next level.
                         </p>
                         <h3>Skills</h3>
                         <ul class="skills-list">
                             <!-- TODO: Add your skills -->
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                            <li>Responsive Design</li>
+                            <li>Web Development</li>
+                            <li>Network Configuration</li>
+                            <li>Database Design</li>
+                            <li>Penetration Testing</li>
                             <!-- Add more skills -->
                         </ul>
                     </div>
@@ -125,10 +146,12 @@
                         <!-- TODO: Replace with your project -->
                         <img src="images/project1-placeholder.jpg" alt="Screenshot of Project 1">
                         <div class="project-card__content">
-                            <h3>Project Title 1</h3>
+                            <h3>Library Database Management System</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                A web based system which made it possible to manage books in the library
+                                including and not limited to lending books to students and tracking book
+                                records. It was Java based and used SQL for the database functionality.
+                                It helped in managing book records.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -142,10 +165,13 @@
                         <!-- TODO: Replace with your project -->
                         <img src="images/project2-placeholder.jpg" alt="Screenshot of Project 2">
                         <div class="project-card__content">
-                            <h3>Project Title 2</h3>
+                            <h3>Weather Appication</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                Another web based application which provided current weather conditions
+                                and weather predictions based on the location you provided it with. It managed
+                                to do so by use of APIs with Python as the
+                                backend technology. The application was also able to alert you if certain conditions
+                                are met either via email or SMSs.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -159,10 +185,10 @@
                         <!-- TODO: Replace with your project -->
                         <img src="images/project3-placeholder.jpg" alt="Screenshot of Project 3">
                         <div class="project-card__content">
-                            <h3>Project Title 3</h3>
+                            <h3>Network Monitering System</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                Able to log and manage network devices on the network. It's a proprietary
+                                system and hence can't disclose more information on it.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -248,7 +274,7 @@
              - Back to top link (optional)
         -->
         <div class="container">
-            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+            <p>&copy; 2026 Mbotanah Vincent. All rights reserved.</p>
             <nav class="footer__social">
                 <!-- TODO: Add your social media links -->
                 <a href="#" aria-label="GitHub">GitHub</a>
@@ -257,5 +283,15 @@
             </nav>
         </div>
     </footer>
+
+
+    <script>
+        const toggleButton = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('light-mode');
+    });
+    </script>
 </body>
 </html>

@@ -127,22 +127,25 @@ Before submitting, verify:
 
 ## Your Information
 
-**Name:** [Your Name]
-**Student ID:** [Your Student ID]
-**Design Theme:** [Describe your portfolio theme/style]
+**Name:** MBOTANAH VINCENT
+**Student ID:** 2022037588
+**Design Theme:** Dark theme with blue accent colors, smooth transitions, and responsive mobile-first layout.
 
 ### CSS Techniques Used
-- [ ] CSS Custom Properties
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Media Queries
-- [ ] Other: _______________
+- [✔] CSS Custom Properties
+- [✔] Flexbox
+- [✔] CSS Grid
+- [✔] Media Queries
+- [✔] Other: Dark/Light Mode Toggle, CSS Transitions
 
 ### Challenges & Solutions
-[Describe any challenges you faced and how you solved them]
+Since the assignement already had a CSS and HTML template provided, I encountered fewer challenges. I found the HTML understandable, the challenge came with CSS as I was not familiar with some of the selectors and there respective properties/values. With these challenge(s), I seeked aid from MDN Web Docs and W3Schools.
+And to get some colour shades I wanted, I used a cheat sheet with several CSS colour schemes.
+Another challenge was ensuring the layout remained responsive without horizontal scrolling, which I solved by following a mobile-first approach and testing at multiple breakpoints with help from an AI companion.
 
 ### Credits
-[List any images, fonts, or resources used with attribution]
+Profile image: Unsplash (royalty-free)
+Project images: Placeholder images (for academic use only)
 
 ---
 
